@@ -6,7 +6,7 @@ terraform {
     random = {
       source = "hashicorp/random"
     }
-  }
+  } 
 
   backend "remote" {
     organization = "fy-lab"
